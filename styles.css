@@ -1,0 +1,171 @@
+body {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Bangers', cursive;
+}
+
+p {
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+}
+
+td {
+  border: 10px solid #fc5185;
+  font-size: 50px;
+  font-family: 'Bangers', cursive;
+}
+
+td:hover {
+  background-color: #dbc6eb;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.table {
+  margin: 0px auto;
+  border-collapse: collapse;
+}
+
+.box {
+  height: 90px;
+  width: 90px;
+  cursor: pointer;
+}
+
+.box-1 {
+  border-left: 0;
+  border-top: 0;
+}
+
+.box-2 {
+  border-top: 0;
+}
+
+.box-3 {
+  border-top: 0;
+  border-right: 0;
+}
+
+.box-4 {
+  border-left: 0;
+}
+
+.box-6 {
+  border-right: 0;
+}
+
+.box-7 {
+  border-left: 0;
+  border-bottom: 0;
+}
+
+.box-8 {
+  border-bottom: 0;
+}
+
+.box-9 {
+  border-right: 0;
+  border-bottom: 0;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  
+  border-left: 5px solid #fcc000;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #333333;
+  color: #fcc000;
+  font-family: 'Lato', sans-serif;
+}
+
+.modal-body {
+  text-align: left;
+  padding: 2px 16px;
+  background-color: #333333;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #333333;
+  color: #fcc000;
+  font-family: 'Lato', sans-serif;
+}
